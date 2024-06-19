@@ -1,9 +1,16 @@
 <ObjectDefinition>
   <variables frozen="0"/>
   <example/>
+  <process name="Process/workflows/test-wf/Process_create">
+    <displayName>create</displayName>
+    <type>CREATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <processConstraintsPath/>
+  </process>
   <information>
     <icon/>
-    <description/>
+    <description>WF test with Github</description>
     <displayField>service_id</displayField>
     <order>10000</order>
     <visibility>5</visibility>
