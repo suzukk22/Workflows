@@ -4,11 +4,11 @@
       <behaviors>
         <behaviour arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" editable="true" visible="true" maxLength="0" isMandatory="false" isUserLocked="false" selectorValue="" startIncrement="0" localVarToFilter="" remoteVarToFilter="" uniqueItemsInDropDownList="false">
           <compositeKey>false</compositeKey>
-          <codeLanguage/>
+          <codeLanguage></codeLanguage>
           <defaultValueLong/>
           <description></description>
-          <displayNameHeader/>
-          <fullDisplayName/>
+          <displayNameHeader></displayNameHeader>
+          <fullDisplayName></fullDisplayName>
           <groupDisplayName></groupDisplayName>
           <groupSeparator></groupSeparator>
           <isGrouped>false</isGrouped>
@@ -17,10 +17,10 @@
           <keepOnImport>false</keepOnImport>
           <mandatoryArray>false</mandatoryArray>
           <onlyDetailView>false</onlyDetailView>
-          <refDeviceIdVar/>
+          <refDeviceIdVar></refDeviceIdVar>
           <refServiceURI></refServiceURI>
           <isSearchable>false</isSearchable>
-          <selector/>
+          <selector></selector>
           <isUniqueGlobal>false</isUniqueGlobal>
         </behaviour>
       </behaviors>
@@ -29,11 +29,11 @@
       <behaviors>
         <behaviour arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" editable="true" visible="true" maxLength="0" isMandatory="false" isUserLocked="false" selectorValue="" startIncrement="0" localVarToFilter="" remoteVarToFilter="" uniqueItemsInDropDownList="false">
           <compositeKey>false</compositeKey>
-          <codeLanguage/>
+          <codeLanguage></codeLanguage>
           <defaultValueLong/>
           <description></description>
-          <displayNameHeader/>
-          <fullDisplayName/>
+          <displayNameHeader></displayNameHeader>
+          <fullDisplayName></fullDisplayName>
           <groupDisplayName></groupDisplayName>
           <groupSeparator></groupSeparator>
           <isGrouped>false</isGrouped>
@@ -42,10 +42,10 @@
           <keepOnImport>false</keepOnImport>
           <mandatoryArray>false</mandatoryArray>
           <onlyDetailView>false</onlyDetailView>
-          <refDeviceIdVar/>
+          <refDeviceIdVar></refDeviceIdVar>
           <refServiceURI></refServiceURI>
           <isSearchable>false</isSearchable>
-          <selector/>
+          <selector></selector>
           <isUniqueGlobal>false</isUniqueGlobal>
         </behaviour>
       </behaviors>
@@ -54,11 +54,11 @@
       <behaviors>
         <behaviour arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" editable="true" visible="true" maxLength="0" isMandatory="false" isUserLocked="false" selectorValue="" startIncrement="0" localVarToFilter="" remoteVarToFilter="" uniqueItemsInDropDownList="false">
           <compositeKey>false</compositeKey>
-          <codeLanguage/>
+          <codeLanguage></codeLanguage>
           <defaultValueLong/>
           <description></description>
-          <displayNameHeader/>
-          <fullDisplayName/>
+          <displayNameHeader></displayNameHeader>
+          <fullDisplayName></fullDisplayName>
           <groupDisplayName></groupDisplayName>
           <groupSeparator></groupSeparator>
           <isGrouped>false</isGrouped>
@@ -67,10 +67,10 @@
           <keepOnImport>false</keepOnImport>
           <mandatoryArray>false</mandatoryArray>
           <onlyDetailView>false</onlyDetailView>
-          <refDeviceIdVar/>
+          <refDeviceIdVar></refDeviceIdVar>
           <refServiceURI></refServiceURI>
           <isSearchable>false</isSearchable>
-          <selector/>
+          <selector></selector>
           <isUniqueGlobal>false</isUniqueGlobal>
         </behaviour>
       </behaviors>
@@ -79,11 +79,11 @@
       <behaviors>
         <behaviour arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" editable="true" visible="true" maxLength="0" isMandatory="false" isUserLocked="false" selectorValue="" startIncrement="0" localVarToFilter="" remoteVarToFilter="" uniqueItemsInDropDownList="false">
           <compositeKey>false</compositeKey>
-          <codeLanguage/>
+          <codeLanguage></codeLanguage>
           <defaultValueLong/>
           <description></description>
-          <displayNameHeader/>
-          <fullDisplayName/>
+          <displayNameHeader></displayNameHeader>
+          <fullDisplayName></fullDisplayName>
           <groupDisplayName></groupDisplayName>
           <groupSeparator></groupSeparator>
           <isGrouped>false</isGrouped>
@@ -92,10 +92,10 @@
           <keepOnImport>false</keepOnImport>
           <mandatoryArray>false</mandatoryArray>
           <onlyDetailView>false</onlyDetailView>
-          <refDeviceIdVar/>
+          <refDeviceIdVar></refDeviceIdVar>
           <refServiceURI></refServiceURI>
           <isSearchable>false</isSearchable>
-          <selector/>
+          <selector></selector>
           <isUniqueGlobal>false</isUniqueGlobal>
         </behaviour>
       </behaviors>
@@ -111,7 +111,7 @@
       <processPath>/opt/fmc_repository/Process/Ansible/Firewall_Management</processPath>
       <displayName>create</displayName>
     </task>
-    <processConstraintsPath/>
+    <processConstraintsPath></processConstraintsPath>
   </process>
   <process name="Process/AnsUpdateFW/Delete_service">
     <displayName>Delete service</displayName>
@@ -122,7 +122,7 @@
       <processPath>/opt/fmc_repository/Process/Ansible/Firewall_Management</processPath>
       <displayName>delete</displayName>
     </task>
-    <processConstraintsPath/>
+    <processConstraintsPath></processConstraintsPath>
   </process>
   <process name="Process/AnsUpdateFW/Add_Firewall_rule">
     <displayName>Add Firewall rule</displayName>
@@ -133,7 +133,7 @@
       <processPath>/opt/fmc_repository/Process/Ansible/Firewall_Management</processPath>
       <displayName>Add Rule</displayName>
     </task>
-    <processConstraintsPath/>
+    <processConstraintsPath></processConstraintsPath>
   </process>
   <process name="Process/workflows/Ansible/Firewall_Management/Process_test">
     <displayName>test</displayName>
@@ -143,6 +143,17 @@
     <task name="Task_test.py">
       <processPath>/opt/fmc_repository/Process/workflows/Ansible/Firewall_Management/Process_test/Tasks</processPath>
       <displayName>test</displayName>
+    </task>
+    <processConstraintsPath></processConstraintsPath>
+  </process>
+  <process name="Process/workflows/Ansible/Firewall_Management/Process_create_FW">
+    <displayName>create_FW</displayName>
+    <type>CREATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Task_create_FW.py">
+      <processPath>/opt/fmc_repository/Process/workflows/Ansible/Firewall_Management/Process_create_FW/Tasks</processPath>
+      <displayName>create_FW</displayName>
     </task>
     <processConstraintsPath/>
   </process>
